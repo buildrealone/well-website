@@ -555,6 +555,10 @@ video {
   position: fixed;
 }
 
+.relative {
+  position: relative;
+}
+
 .top-0 {
   top: 0px;
 }
@@ -579,7 +583,7 @@ video {
   height: 100%;
 }
 
-.h-screen {
+.h-\[100vh\] {
   height: 100vh;
 }
 
@@ -599,7 +603,7 @@ video {
   width: 100%;
 }
 
-.w-screen {
+.w-\[100vw\] {
   width: 100vw;
 }
 
