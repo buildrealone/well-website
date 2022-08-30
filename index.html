@@ -13,36 +13,17 @@
     <meta name="description" content="Well: Patent Law Firm" />
     <link href="/dist/output.css" rel="stylesheet">
     <!-- <script src="https://cdn.tailwindcss.com"></script> -->
-
-    <style>
-        #fill {
-            /* height: -webkit-fill-available; */
-            height: fill-available;
-        }
-    </style>
 </head>
 <body>
     <!-- min-h-[100vh] min-w-[100vw] -->
     <div class="relative h-full w-full">
-
+        <!-- poster="video-poster.jpg" -->
         <video 
-            class="fixed object-cover w-[100vw] h-[100vh]  top-0 left-0"
+            class="fixed object-cover w-[100vw] h-[100vh] top-0 left-0"
             autoplay loop muted playsinline>
             <source src="./src/assets/video/video-01.mp4" type="video/mp4">
         </video>
         
-        <!-- poster="video-poster.jpg" -->
-        <!-- <video 
-            id="fill"
-            class="fixed top-0 left-0 w-[100vw] h-[100vh] min-h-[100vh] object-fill z-0" 
-            muted
-            loop
-            autoplay
-            playsinline
-        >
-            <source src="./src/assets/video/video-01.mp4" type="video/mp4">
-        </video> -->
-
         <!-- Top Navbar -->
         <nav class="fixed top-0 w-full h-10 flex items-center justify-center text-gray-200 font-extralight text-sm sm:text-[20px] px-5 py-7 z-10">
             <div class="text-xl sm:text-2xl">WeLL</div>
@@ -56,13 +37,19 @@
         <!-- Main Title (center) -->
         <div class="fixed w-full h-full flex items-center justify-center z-10">
             <div>
-                <div class="text-gray-100 text-[40px] sm:text-[60px] text-center font-extralight">
-                    Well: Patent Law Firm
+                <div class="bg-gray-400 bg-opacity-30 rounded-2xl p-5">
+                    <div class="text-gray-200 text-[60px] sm:text-[80px] text-center font-light">
+                        WeLL:
+                    </div>
+                    <div class="text-gray-200 text-[40px] sm:text-[60px] text-center font-extralight">
+                        A Patent Law Firm
+                    </div>
                 </div>
-                <form class="text-center mt-7 sm:mt-10">
+
+                <!-- <form class="text-center mt-10 sm:mt-10">
                     <label htmlFor="search-keyword" />
                     <input 
-                        class="h-14 sm:h-15 w-[330px] sm:w-[520px] bg-gray-200 opacity-70 rounded-2xl border-0 p-4 text-[#222] placeholder-gray-700 text-base sm:text-lg" 
+                        class="h-14 sm:h-15 w-[330px] sm:w-[520px] bg-gray-200 opacity-70 rounded-2xl border-0 p-4 text-gray-400 placeholder-gray-700 text-base sm:text-lg" 
                         type="text" 
                         id="search-keyword" 
                         name="search-keyword" 
@@ -70,7 +57,7 @@
                         spellcheck="false"
                         required 
                     />
-                </form>
+                </form> -->
             </div>
         </div>
     </div>

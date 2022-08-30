@@ -583,6 +583,10 @@ video {
   margin-top: 1.75rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -639,6 +643,14 @@ video {
   border-radius: 1rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.rounded-xl {
+  border-radius: 0.75rem;
+}
+
 .border-0 {
   border-width: 0px;
 }
@@ -646,6 +658,42 @@ video {
 .bg-gray-200 {
   --tw-bg-opacity: 1;
   background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
+.bg-gray-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.bg-gray-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(75 85 99 / var(--tw-bg-opacity));
+}
+
+.bg-gray-400 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 163 175 / var(--tw-bg-opacity));
+}
+
+.bg-opacity-50 {
+  --tw-bg-opacity: 0.5;
+}
+
+.bg-opacity-40 {
+  --tw-bg-opacity: 0.4;
+}
+
+.bg-opacity-30 {
+  --tw-bg-opacity: 0.3;
+}
+
+.bg-opacity-20 {
+  --tw-bg-opacity: 0.2;
 }
 
 .object-cover {
@@ -660,6 +708,14 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-3 {
+  padding: 0.75rem;
+}
+
+.p-5 {
+  padding: 1.25rem;
 }
 
 .px-5 {
@@ -695,8 +751,16 @@ video {
   line-height: 1.5rem;
 }
 
+.text-\[60px\] {
+  font-size: 60px;
+}
+
 .font-extralight {
   font-weight: 200;
+}
+
+.font-light {
+  font-weight: 300;
 }
 
 .text-gray-200 {
@@ -714,6 +778,31 @@ video {
   color: rgb(34 34 34 / var(--tw-text-opacity));
 }
 
+.text-gray-600 {
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+}
+
+.text-gray-400 {
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
 .placeholder-gray-700::-moz-placeholder {
   --tw-placeholder-opacity: 1;
   color: rgb(55 65 81 / var(--tw-placeholder-opacity));
@@ -726,6 +815,10 @@ video {
 
 .opacity-70 {
   opacity: 0.7;
+}
+
+.opacity-40 {
+  opacity: 0.4;
 }
 
 @media (min-width: 640px) {
@@ -753,5 +846,9 @@ video {
   .sm\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
+  }
+
+  .sm\:text-\[80px\] {
+    font-size: 80px;
   }
 }
